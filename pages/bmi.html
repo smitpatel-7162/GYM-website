@@ -32,38 +32,71 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item px-3 pt-3">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a class="nav-link " aria-current="page" href="/index.html"
                 >Home</a
               >
             </li>
-            <!-- <li class="nav-item px-3 pt-3 ">
-                <a class="nav-link" href="/pages/bmi.html">Program</a>
-              </li> -->
+          
             <li class="nav-item px-3 pt-3">
               <a class="nav-link" href="/pages/whyus&plane.html"
                 >Why us & plane</a
               >
             </li>
-            <!-- <li class="nav-item px-3  pt-3">
-                <a class="nav-link" href="#plane">Plane</a>
-              </li> -->
+          
             <li class="nav-item px-3 pt-3">
               <a class="nav-link" href="/pages/contact.html">Contact us</a>
             </li>
             <li class="nav-item px-3  pt-3" >
-              <a class="nav-link" href="/pages/bmi.html">BMI calculator</a>
+              <a class="nav-link active" href="/pages/bmi.html">BMI calculator</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit">
-              Join us
-            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register here</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputtext" class="form-label">Your name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputtext" class="form-label">Your Phone number</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputtext" class="form-label">Which plane do you want</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                  
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+           
+           
+            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button ">Join us</button>
           </form>
         </div>
       </div>
     </nav>
-    <div class = "container">
-      <div class = "main-wrapper">
+    <div class = "container" >
+      <div class = "main-wrapper border border-white border-5"  style=" background-color: transparent;" >
         <div class = "bmi-heads">
           <div id = "bmi-usc-head" class = "bmi-head active-head">
             <h2>US Units</h2>
@@ -191,16 +224,16 @@
                 Useful links
               </h6>
               <p>
-                <a href="#!" class="text-reset"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/smit-patel-a881a8253/" target="_blank" class="text-reset"><i class="bi bi-linkedin"></i></i></a>
               </p>
               <p>
-                <a href="#!" class="text-reset"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://wa.me/8779799037" target="_blank" class="text-reset"><i class="bi bi-whatsapp"></i></a>
               </p>
               <p>
-                <a href="#!" class="text-reset"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/smitpatel-7162" target="_blank" class="text-reset"><i class="bi bi-github"></i></a>
               </p>
               <p>
-                <a href="#!" class="text-reset"><i class="bi bi-telephone-fill"></i></a>
+                <a href="mailto:smitpatel7162@gmail.com" target="_blank" class="text-reset"><i class="bi bi-envelope"></i></i></a>
               </p>
             </div>
             <!-- Grid column -->

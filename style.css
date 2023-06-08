@@ -40,13 +40,10 @@
 }
 
 body {
-    background: #e9d362;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333333, #e9d362);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333333, #e9d362);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .span {
@@ -64,8 +61,9 @@ body {
 
 .second {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+    margin-left: 150px;
 }
 
 .stroke {
@@ -102,34 +100,115 @@ margin-left: 30px;
     margin-bottom: 10px;
 }
 
+#c1{
+width: 20rem; 
+height: 15rem;
+
+border-color: white;
+
+transition: transform 500ms;
+}
+#c1:hover{
+    background-color: transparent;
+    color: white;
+    transform: translateY(-30px);
+}
+
+#c2{
+width: 20rem; 
+height: 15rem;
+border-color: white;
+transition: transform 500ms;
+}
+#c2:hover{
+    background-color: transparent;
+    color: white;
+    transform: translateY(-30px);
+}
+
+#c4{
+    width: 20rem; 
+    height: 15rem;
+    border-color: white;
+    transition: transform 500ms;
+}
+#c3{
+    border-color: white;
+    transition: transform 500ms;
+}
+#c3:hover{
+    background-color: transparent;
+    color: white;
+    transform: translateY(-30px);
+}
+#c4:hover{
+    background-color: transparent;
+    color: white;
+   
+    transform: translateY(-30px);
+}
+
+#card1{
+    border-color: white;
+    transition: transform 500ms;
+}
+#card1:hover{
+    background-color: transparent;
+    color: white;
+   
+    transform: translateY(-30px);
+}
+
+#card2{
+    border-color: white;
+    transition: transform 500ms;
+}
+#card2:hover{
+    background-color: transparent;
+    color: white;
+   
+    transform: translateY(-30px);
+}
+
+#card3{
+    border-color: white;
+    transition: transform 500ms;
+}
+#card3:hover{
+    background-color: transparent;
+    color: white;
+   
+    transform: translateY(-30px);
+}
+
 @media screen and (max-width:600px) {
    .in button{
     margin-left: 150px;
    }
 
     .fiting {
-        width: 400px;
+        width: 350px;
         height: 400px;
-        padding-left: 40px;
+        padding-left: 10px;
     }
 
     .second {
-        font-size: 45px;
-
+        font-size: 35px;
+       margin-left: 0;
     }
 
     .score {
-        padding-left: 90px;
+        padding-left: 60px;
 
     }
 
     .h2 .score1 {
-        padding-left: 150px;
+        padding-left: 120px;
         margin-top: 0;
     }
 
     .first span {
-        color: aqua;
+      margin-left: 0;
     }
 
     .heading {
@@ -189,10 +268,7 @@ margin-left: 30px;
         padding-left: 80px;
     }
 
-    .CARDS {
-       
-
-    }
+   
 
     .second {
         padding-left: 60px;
@@ -208,6 +284,18 @@ margin-left: 30px;
  .linkp{
     display: none;
  }
+  #c1{
+    width: 20rem;
+  }
+  #c2{
+width: 20rem;
+  }
+  #c3{
+width: 20rem;
+  }
+  #c4{
+    width: 20rem;
+  }
 }
 
 
