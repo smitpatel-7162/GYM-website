@@ -1,0 +1,213 @@
+/* .h2 h2{
+ color:white;
+ font-size: 80px;
+ font-weight: 600;
+}
+.span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.first div{
+   width: 5.2rem;
+   background-color: orange;
+  height: 90%;
+  position: absolute;
+  z-index: 2;
+  border-radius: 20px;
+  left: 10px;
+  top: 1px;
+}
+
+.first span{
+    z-index: 1;
+    padding-left: 10PX;
+ 
+}
+.LEFT-P{
+    font-size: 20px;
+    color: white;
+}
+.numb span{
+ font-size: 20px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9d362;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #e9d362);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #e9d362);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.span {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2 h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.second {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.stroke {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    margin: 0;
+
+}
+.in input{
+width: 80%;
+margin-left: 30px;
+}
+
+.in label{
+  
+margin-left: 30px;
+}
+.in .p{
+    color: white;
+    margin-left: 15px;
+}
+.in button{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+   .in button{
+    margin-left: 150px;
+   }
+
+    .fiting {
+        width: 400px;
+        height: 400px;
+        padding-left: 40px;
+    }
+
+    .second {
+        font-size: 45px;
+
+    }
+
+    .score {
+        padding-left: 90px;
+
+    }
+
+    .h2 .score1 {
+        padding-left: 150px;
+        margin-top: 0;
+    }
+
+    .first span {
+        color: aqua;
+    }
+
+    .heading {
+        font-size: 100px;
+    }
+
+    .h2 h2 {
+        font-size: 50px;
+        padding-left: 30px;
+    }
+
+    .h2 p {
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .img1 {
+        width: 150px;
+        height: 300px;
+        position: absolute;
+    }
+
+    .img2 {
+        width: 150px;
+        height: 290px;
+        position: relative;
+        top: 10px;
+        left: 80px;
+    }
+
+    .img3 {
+        width: 200px;
+        position: relative;
+        top: 20px;
+        right: 30px;
+    }
+
+    .REASONS h3 {
+        font-size: 18px;
+    }
+
+    .REASONS img {
+        width: 30px;
+    }
+
+    .REASONS p {
+        padding-left: 80px;
+    }
+
+    .REASONS h4 {
+        padding-left: 60px;
+    }
+
+    .REASONS h5 {
+        padding-left: 80px;
+    }
+
+    .CARDS {
+       
+
+    }
+
+    .second {
+        padding-left: 60px;
+    }
+
+    .CARDS img {
+        width: 20px;
+    }
+ .link{
+    display: flex;
+    gap: 2rem;
+ }
+ .linkp{
+    display: none;
+ }
+}
+
+
